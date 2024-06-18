@@ -45,4 +45,35 @@ print(dni)
 x = -40
 print("El valor de mi variable x es", x)
 
+#nombres de variables:
+""" ▪ siempre deben empezar con:
+     -munúscula.
+     -guión bajo
+    ▪ no pueden incluir espacios en blanco
+ """
+#--------------------------------------------
+#método de salida de dato = print
+#método de entrada de dato = input
+
+nombre = input ("Hola, ingresá tu nombre: ")
+
+print ("Hola ",nombre)
+
+#--------------------------------------------
+"""  la funcion INPUT convierte los datos en una cadena STRING
+     aunque los datos sean NUMEROS
+ """
+
+a = 20
+b = 30
+
+resultado = a + b
+print (resultado)
+
+#--------------------------------------------
+e = 30
+f = int (input ("Indique su edad: "))
+
+print ("La suma del dato e y su edad es: ",e + f)
+
 
