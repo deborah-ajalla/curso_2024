@@ -81,3 +81,23 @@ print(len(numbers))
 
 #--------------------------------------------------------
 #--> FUNCION POP <--
+#elimina el ultimo item de una lista
+print("listado de equipos:")
+equipos = ["river", "boca", "independiente"]
+print(equipos)
+
+print("elimino con .p")
+equipos.pop()
+print(equipos)
+
+# --> FUNCION COUNT <--
+#retorna la cantidad de veces que se repite un elemento
+
+numeros_varios = [2,7,8,9,2,4,5,7,6,2]
+print (numeros_varios.count(2))
+
+# --> INDEX <--
+#busca el elemento y nos indica su número de indice
+numeros_varios = [2,7,8,9,2,4,5,7,6,2]
+print (numeros_varios.index(8))
+
