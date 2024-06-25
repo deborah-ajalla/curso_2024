@@ -71,6 +71,8 @@ resultado = a + b
 print (resultado)
 
 #--------------------------------------------
+#script para sumar un valor fijo (30) y un dato que ingresa por teclado
+
 e = 30
 f = int (input ("Indique su edad: "))
 
