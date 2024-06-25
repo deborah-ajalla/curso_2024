@@ -54,4 +54,30 @@ print (listita [-1])
 #concateno listas
 print (listita + [otra_lista, "algo random"])
 
+#--------------------------------------------
+equipos = ["river", "boca", "independiente"]
+print(equipos)
 
+#lista vacia
+equipos= []
+print(equipos)
+
+#-------------------------------------------
+# --> APPEND <--
+#permite agregar un nuevo item al final de una lista
+numbers = [1,2,3,4,5,6]
+print(numbers)
+
+print("agrego un elemento con append")
+numbers.append(7)
+print(numbers)
+
+print("agrego el ultimo elemento que proviene de una multiplicacion")
+numbers.append(2*2)
+print(numbers)
+
+#uso LEN
+print(len(numbers))
+
+#--------------------------------------------------------
+#--> FUNCION POP <--
