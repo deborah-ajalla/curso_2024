@@ -1,4 +1,5 @@
-#LONGITUD DE CADENA --> FUNCION LEN <--
+#LONGITUD DE CADENA 
+# --> FUNCION LEN <--
 
 esto_es_un_string = "hola, soy un string"
 
@@ -8,7 +9,8 @@ string = "    "
 print( len(string))
 #--------------------------------------------
 
-#REBANAR UN STRING --> SLICING <--
+#REBANAR UN STRING 
+# --> SLICING <--
 # [INICIO : FIN : PASO]
 """
 inicio: el imdice del primer caracter del string q queremos rebanar
@@ -33,6 +35,8 @@ print (palabra)
 
 #-----------------------------------------------------------------------
 #  --> LISTAS Y TUPLAS <--
+#-----------------------------------------------------------------------
+
 mi_lista = [-11, 20, 3, 41]
 print("esta es mi lista: ")
 print (mi_lista)
@@ -64,7 +68,7 @@ print(equipos)
 
 #-------------------------------------------
 # --> APPEND <--
-#permite agregar un nuevo item al final de una lista
+#permite agregar un nuevo item al final de una lista ✔
 numbers = [1,2,3,4,5,6]
 print(numbers)
 
@@ -81,7 +85,7 @@ print(len(numbers))
 
 #--------------------------------------------------------
 #--> FUNCION POP <--
-#elimina el ultimo item de una lista
+#elimina el ultimo item de una lista ✔
 print("listado de equipos:")
 equipos = ["river", "boca", "independiente"]
 print(equipos)
@@ -91,13 +95,23 @@ equipos.pop()
 print(equipos)
 
 # --> FUNCION COUNT <--
-#retorna la cantidad de veces que se repite un elemento
+#retorna la cantidad de veces que se repite un elemento ✔
 
 numeros_varios = [2,7,8,9,2,4,5,7,6,2]
 print (numeros_varios.count(2))
 
 # --> INDEX <--
-#busca el elemento y nos indica su número de indice
+#busca el elemento y nos indica su número de indice ✔
 numeros_varios = [2,7,8,9,2,4,5,7,6,2]
 print (numeros_varios.index(8))
+
+#--------------------------------------------------------
+# ------ TUPLAS ------
+# son inmutables ✔
+# se usan parentesis ✔
+
+mi_tupla = (1,2,3,4)
+print ("Esto es una tupla: ", mi_tupla)
+
+
 
