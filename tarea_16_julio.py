@@ -27,6 +27,29 @@ while n < 6:                   # --> 👉🏻 se inicia un bucle "while" que tie
         print (n, "No es 2")   # --> 👉🏻 se imprime "n, no es 2".
     n+=1                       # --> 👉🏻 se indica que en cada iteración el contador (variable n) incrementa en 1.
 
-
+#---------------------------------------------------------------------------------------------------------------
 #  IF ELSE ELIF
 # Construir un algoritmo con lo viste en clase bajo el mismo diagrama de flujo de la imagen que está en la carpeta assets del repo
+
+print ("\t------------------------------------------- \n")
+print ("\t********* BIENVENIDO AL PROGRAMA *********\n")
+
+print (" Presione s/n para operar en el sistema...")
+entrar = input (">> Desea Ingresar?:  ")
+
+if entrar == "s":
+    print ("🔹🔹 Bienvenida/o al sistema!!! 🔹🔹")
+elif entrar == "n":
+    ingreso = input (">> Quiere ingresar su nombre? s/n: ")
+    if ingreso == "s":
+        print (" Hola! Cómo estás??")
+    else: 
+        salir = input (">> Quiere Salir del Sistema? s/n: ")
+        if salir == "s":
+            print ("Ud ha salido exitosamente!!!")
+            print ("----------------------------\n")
+        else:
+            print ("\t ❌ No se reconoce el comando ❌")
+            print (" \t Vuelva a Intentarlo!! \n")   
+else:
+    print (">> SOLO DEBE INGRESAR s/n: ")
