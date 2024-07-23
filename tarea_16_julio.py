@@ -37,17 +37,17 @@ print ("\t********* BIENVENIDO AL PROGRAMA *********\n")
 print (" Presione s/n para operar en el sistema...")
 entrar = input (">> Desea Ingresar?:  ")
 
-if entrar == "s":
+if entrar.lower() == "s":
     print ("🔹🔹 Bienvenida/o al sistema!!! 🔹🔹")
-elif entrar == "n":
+elif entrar.lower() == "n":
     ingreso = input (">> Quiere ingresar su nombre? s/n: ")
-    if ingreso == "s":
+    if ingreso.lower() == "s":
         print (" Hola! Cómo estás??")
     else: 
         salir = input (">> Quiere Salir del Sistema? s/n: ")
-        if salir == "s":
-            print ("Ud ha salido exitosamente!!!")
-            print ("----------------------------\n")
+        if salir.lower() == "s":
+            print ("\t ✨ Ud ha salido exitosamente!!! ✨")
+            print ("\t  -------------------------------\n")
         else:
             print ("\t ❌ No se reconoce el comando ❌")
             print (" \t Vuelva a Intentarlo!! \n")   
