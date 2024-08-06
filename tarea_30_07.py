@@ -31,5 +31,14 @@ print ("Grupo actualizado sin 'Francisco': \n", grupo)
 print ("\n ----------------------------------------------")
 animalitos = {"elefante": ""}
 # Añadir al diccionario las claves perro, gato y tucan con sus valores "Tobi", "Michi" y "Diego"
+print (" --> Trabajando con Diccionarios <--")
+animalitos = {"elefante": "", "perro": "Tobi", "gato": "Michi", "tucan": "Diego"}
+print (animalitos)
+print ("\n ----------------------------------------------")
 
 # Modificar la clave elefante por delfin
+print ("Ahora modificamos una clave: ")
+animalitos.pop("elefante" )
+animalitos["delfin"] = " "
+print (animalitos)
+print ("\n ----------------------------------------------")
